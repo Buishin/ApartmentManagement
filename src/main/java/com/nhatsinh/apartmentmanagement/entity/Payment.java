@@ -1,5 +1,4 @@
 package com.nhatsinh.apartmentmanagement.entity;
-
 import java.time.LocalDate;
 
 import jakarta.persistence.Entity;

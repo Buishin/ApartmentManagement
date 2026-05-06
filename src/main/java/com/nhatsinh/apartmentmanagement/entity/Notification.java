@@ -1,5 +1,7 @@
 package com.nhatsinh.apartmentmanagement.entity;
 
+import java.time.LocalDateTime;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -29,6 +31,8 @@ public class Notification {
     private String title;
 
     private String content;
+
+    private LocalDateTime createdAt;
 
     @ManyToOne
     @JoinColumn(name = "user_id")

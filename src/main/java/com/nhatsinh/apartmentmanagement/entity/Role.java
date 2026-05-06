@@ -1,7 +1,7 @@
 package com.nhatsinh.apartmentmanagement.entity;
 
 public enum Role {
-    User,
+    USER,
     ADMIN,
     MANAGER
 }
